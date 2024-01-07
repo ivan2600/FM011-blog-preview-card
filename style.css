@@ -24,8 +24,8 @@ body {
 }
 
 .main-container {
-  width: 330px;
-  height: 500px;
+  max-width: 330px;
+  min-height: 460px;
   border: 1px solid black;
   padding: 25px;
   border-radius: 20px;
@@ -37,7 +37,7 @@ body {
 
 .main-container .main-img {
   height: 200px;
-  width: 280px;
+  width: 278px;
   border-radius: 10px;
   object-fit: cover;
   margin: 0 auto;
