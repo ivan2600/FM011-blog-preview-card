@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--Yellow);
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.main-container {
+  width: 330px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: var(--White);
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+.main-container .main-img {
+  height: 200px;
+  width: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.main-container .learning {
+  width: 7.2rem;
+  background-color: var(--Yellow);
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.main-container .published {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.main-container h1 {
+  font-size: 2rem;
+  margin-top: 1.8rem;
+}
+
+.main-container .main-text {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  color: var(--Grey);
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-container .social-img {
+  height: 3rem;
+  margin-top: 2.5rem;
+}
+
+.social-container .social-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-left: 1.5rem;
+  margin-top: 2.5rem;
+}
